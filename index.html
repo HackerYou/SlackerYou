@@ -12,14 +12,16 @@
   <h1>SlackerYou</h1>
   <p class="desc">🔥 A RealTime Chat built with jQuery + FireBase!</p>
 
+
   <div class="messagesWrap">
     <ul class="messages"></ul>
   </div>
 
   <form action="" class="chat">
-    <input type='text' id='nameInput' placeholder='Username' required>
-    <input type='text' id='messageInput'  placeholder='Type a message...' required>
+    <input type='text' id='nameInput' placeholder='Username' required maxlength=10> 
+    <input type='text' id='messageInput'  placeholder='Type a message...' required maxlength=140>
     <input type="submit" value="Send →">
+    <small>Created for learning purposes - get the code at <a href="https://github.com/HackerYou/SlackerYou">github.com/HackerYou/SlackerYou</a>. Be nice when testing.</small>
   </form>
 
 
