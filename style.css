@@ -1,0 +1,78 @@
+.wrapper {
+  max-width:700px;
+  margin: 0 auto;
+}
+
+
+.chat {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+p.desc {
+  text-align: center;
+}
+
+input {
+  border:1px solid black;
+  border-bottom: 1px solid black !important;
+  padding:20px;
+  margin-bottom: 10px;
+}
+
+input[type=submit] {
+  background:#D12028;
+  color:white;
+  width: 15%;
+  float:left;
+}
+
+#nameInput {
+  width:20%;
+  float:left;
+}
+
+#messageInput {
+  width:65%;
+  border-left: 0;
+  border-right: 0;
+  float:left;
+  
+}
+
+.messages {
+  max-height:500px;
+  overflow:scroll;
+  background:white;
+  padding:20px;
+  position: relative;
+}
+
+.messagesWrap {
+  position: relative;
+}
+.messagesWrap:before {
+  display: block;
+  z-index: 10;
+  content : '';
+  width: 100%;
+  height:100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 20%,rgba(255,255,255,0) 97%,rgba(255,255,255,0) 100%); /* W3C */
+}
+
+.messages li {
+  border-bottom:1px solid #ccc;
+  padding-bottom: 10px;
+  margin:10px 0;
+}
+
+
+.messages strong {
+  margin-right: 10px;
+  color:#d12028;
+}
