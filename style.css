@@ -39,7 +39,7 @@ input[type=submit] {
   border-left: 0;
   border-right: 0;
   float:left;
-  
+
 }
 
 .messages {
@@ -52,6 +52,7 @@ input[type=submit] {
 
 .messagesWrap {
   position: relative;
+  min-height: 100px;
 }
 .messagesWrap:before {
   display: block;
