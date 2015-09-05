@@ -1,0 +1,32 @@
+{
+  "name": "slackeryou",
+  "version": "1.0.0",
+  "description": "A jQuery + Feathers real-time chat",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "feathers": "^1.1.0",
+    "feathers-hooks": "^0.5.0",
+    "feathers-nedb": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feathersjs/SlackerYou.git"
+  },
+  "keywords": [
+    "real-time",
+    "api",
+    "jQuery"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feathersjs/SlackerYou/issues"
+  },
+  "homepage": "https://github.com/feathersjs/SlackerYou#readme"
+}
